@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaflet Map - Earthquakes & Tectonic Plates</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Style for legend -->
+  <style>
+    #map {
+      height: 90vh;
+      width: 100%;
+    }
+    .legend {
+      background: white;
+      padding: 10px;
+      line-height: 18px;
+      color: #555;
+    }
+    .legend i {
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin-right: 8px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- D3.js for loading GeoJSON -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <!-- Part 1: Earthquakes -->
+  <script src="static//Leaflet-Part-1/logic1.js"></script>
+
+  <!-- Part 2: Tectonic Plates (optional challenge) -->
+  <!-- <script src="static//Leaflet-Part-2/logic2.js"></script> -->
+</body>
+</html>
